@@ -1,0 +1,19 @@
+
+/* navbarColor: #323738; */
+
+.navbar-header { 
+  width: 100%;
+}
+.navbar-header button, .navbar-header .navbar-brand {
+  transition: opacity 0.15s;
+}
+
+nav button {
+  margin-right: 0;
+}
+nav button:hover, nav .navbar-brand:hover {
+  opacity: 0.8;
+}
+.navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
+    border-bottom: 3px solid white;
+}
